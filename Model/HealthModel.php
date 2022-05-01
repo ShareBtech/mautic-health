@@ -9,20 +9,20 @@
  * @license     GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html
  */
 
-namespace MauticPlugin\MauticHealthBundle\Model;
+namespace plugins\MauticHealthBundle\Model;
 
-use Doctrine\DBAL\Connection;
-use Doctrine\DBAL\Connections\MasterSlaveConnection;
-use Doctrine\DBAL\Query\QueryBuilder;
-use Doctrine\ORM\EntityManager;
-use Mautic\CampaignBundle\Event\CampaignEvent;
-use Mautic\CampaignBundle\Model\CampaignModel;
-use Mautic\CampaignBundle\Model\EventModel;
-use Mautic\CoreBundle\Helper\CacheStorageHelper;
-use Mautic\CoreBundle\Helper\ProgressBarHelper;
-use Mautic\PluginBundle\Helper\IntegrationHelper;
-use MauticPlugin\MauticHealthBundle\Integration\HealthIntegration;
-use Symfony\Component\Console\Output\OutputInterface;
+use vendor\doctrine\DBAL\Connection;
+use vendor\doctrine\DBAL\Connections\MasterSlaveConnection;
+use vendor\doctrine\DBAL\Query\QueryBuilder;
+use vendor\doctrine\ORM\EntityManager;
+use app\bundles\CampaignBundle\Event\CampaignEvent;
+use app\bundles\CampaignBundle\Model\CampaignModel;
+use app\bundles\CampaignBundle\Model\EventModel;
+use app\bundles\CoreBundle\Helper\CacheStorageHelper;
+use app\bundles\CoreBundle\Helper\ProgressBarHelper;
+use app\bundles\PluginBundle\Helper\IntegrationHelper;
+use app\bundles\MauticHealthBundle\Integration\HealthIntegration;
+use vendor\ymfony\Component\Console\Output\OutputInterface;
 
 /**
  * Class HealthModel.
