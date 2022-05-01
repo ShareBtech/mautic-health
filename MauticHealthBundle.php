@@ -9,9 +9,9 @@
  * @license     GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html
  */
 
-namespace MauticPlugin\MauticHealthBundle;
+namespace plugins\MauticHealthBundle;
 
-use Mautic\PluginBundle\Bundle\PluginBundleBase;
+use plugins\PluginBundle\Bundle\PluginBundleBase;
 
 class MauticHealthBundle extends PluginBundleBase
 {
