@@ -18,7 +18,7 @@ return [
     'services' => [
         'models' => [
             'mautic.health.model.health' => [
-                'class'     => 'MauticPlugin\MauticHealthBundle\Model\HealthModel',
+                'class'     => 'plugins\MauticHealthBundle\Model\HealthModel',
                 'arguments' => [
                     'doctrine.orm.entity_manager',
                     'mautic.helper.integration',
@@ -29,7 +29,7 @@ return [
         ],
         'events' => [
             'mautic.health.dashboard.subscriber' => [
-                'class'     => 'MauticPlugin\MauticHealthBundle\EventListener\DashboardSubscriber',
+                'class'     => 'plugins\MauticHealthBundle\EventListener\DashboardSubscriber',
                 'arguments' => [
                     'mautic.health.model.health',
                 ],
