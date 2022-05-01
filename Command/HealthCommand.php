@@ -9,14 +9,14 @@
  * @license     GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html
  */
 
-namespace MauticPlugin\MauticHealthBundle\Command;
+namespace plugins\MauticHealthBundle\Command;
 
-use Mautic\CoreBundle\Command\ModeratedCommand;
-use MauticPlugin\MauticHealthBundle\Model\HealthModel;
-use Symfony\Component\Console\Input\InputInterface;
-use Symfony\Component\Console\Input\InputOption;
-use Symfony\Component\Console\Output\NullOutput;
-use Symfony\Component\Console\Output\OutputInterface;
+use app\CoreBundle\Command\ModeratedCommand;
+use plugins\MauticHealthBundle\Model\HealthModel;
+use vendor\symfony\Component\Console\Input\InputInterface;
+use vendor\symfony\Component\Console\Input\InputOption;
+use vendor\symfony\Component\Console\Output\NullOutput;
+use vendor\symfony\Component\Console\Output\OutputInterface;
 
 /**
  * CLI Command : Performs maintenance tasks required by the health plugin.
