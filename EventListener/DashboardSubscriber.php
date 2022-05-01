@@ -9,11 +9,11 @@
  * @license     GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html
  */
 
-namespace MauticPlugin\MauticHealthBundle\EventListener;
+namespace plugins\MauticHealthBundle\EventListener;
 
-use Mautic\DashboardBundle\Event\WidgetDetailEvent;
-use Mautic\DashboardBundle\EventListener\DashboardSubscriber as MainDashboardSubscriber;
-use MauticPlugin\MauticHealthBundle\Model\HealthModel;
+use app\bundles\DashboardBundle\Event\WidgetDetailEvent;
+use app\bundles\DashboardBundle\EventListener\DashboardSubscriber as MainDashboardSubscriber;
+use plugins\MauticHealthBundle\Model\HealthModel;
 
 /**
  * Class DashboardSubscriber.
